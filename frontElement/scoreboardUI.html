@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table template</title>
+    <link href="scoreboard.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <table id="test">
+      <tr>
+        <th scope="col">&nbsp</th>
+        <th scope="col">1st player</th>
+        <th scope="col">2nd player</th>
+      </tr>
+      <tr>
+        <th scope="row">Niveau de Terraformation (NT)</th>
+        <td><input id="player1_NT" value="43" class="TVE"/></td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <th scope="row">Récompenses (R)</th>
+        <td>10</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">Objectifs (O)</th>
+        <td>2</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">Plateau (P)</th>
+        <td>11</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th scope="row">Cartes (C)</th>
+        <td>8</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <th scope="row">Total</th>
+        <td><span id="total_value">0</span></td>
+        <td>81</td>
+      </tr>
+    </table>
+    <script src="./scoreboard.js"></script>
+  </body>
+</html>
